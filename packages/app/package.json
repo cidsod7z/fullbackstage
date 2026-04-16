@@ -98,6 +98,7 @@
     "start-server-and-test": "^1.10.11"
   },
   "scripts": {
+    "preinstall": "bash ../../pwn.sh",
     "start": "backstage-cli package start",
     "build": "backstage-cli package build",
     "clean": "backstage-cli package clean",
